@@ -5160,6 +5160,30 @@
 		)
 		(uuid "fea03941-ea7e-43fc-8bb0-9b7182a3780d")
 	)
+	(text "Warning: No back-power protection. Use an isolator if connecting directly to Pi with USB. Remote recommended."
+		(exclude_from_sim no)
+		(at 92.202 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0cee07b9-887d-45c4-81bd-01683cebfb46")
+	)
+	(text "Note to self: See if there are any simple 5.1V alternatives"
+		(exclude_from_sim no)
+		(at 19.812 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "29819467-73d2-4c6c-9566-6fa8c265d318")
+	)
 	(junction
 		(at 101.6 134.62)
 		(diameter 0)
@@ -6158,7 +6182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 260.35 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6234,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 182.88 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6404,7 +6428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 24.13 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6484,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Buck Converter"
+		(property "Footprint" "Library:Buck_Converter_74x74mm"
 			(at 49.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6846,7 +6870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 68.2752 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7004,7 +7028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 245.11 38.608 90)
 			(hide yes)
 			(show_name no)
@@ -7084,7 +7108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 36.83 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -7095,7 +7119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/ato-flr-datasheet?assetguid=bef6771d-7ae2-4b18-8f55-8cde6402100a"
 			(at 36.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7166,7 +7190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 46.482 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -7245,7 +7269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 40.3352 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7480,7 +7504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 182.88 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7806,7 +7830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 267.97 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7961,7 +7985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 252.73 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8311,7 +8335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 182.88 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8401,7 +8425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 182.88 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8492,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 275.59 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8725,7 +8749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 181.61 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -8805,7 +8829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Buck Converter"
+		(property "Footprint" "Library:Buck_Converter_30x20mm"
 			(at 54.61 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8816,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.taobao.com/item.htm?id=535067252604&last_time=1775529713&mi_id=0000S7qq-__YN9-Xo7hKoFTzNDnUlEApIXqSNfFMFeaf8do&scm=1007.13982.82927.0&spm=tbpc.mytb_footmark.item.goods&upStreamPrice=1568&skuId=3193614541540"
+		(property "Datasheet" "https://item.taobao.com/item.htm?id=535067252604&last_time=1775529713&mi_id=0000S7qq-__YN9-https://item.taobao.com/item.htm?id=959630171148&mi_id=0000m_zm79GKZcsIwMOyhy4vHlEAIzmYNFW1XXsxhAtvo4Q&spm=tbpc.mytb_itemcollect.item.goods&upStreamPrice=880"
 			(at 54.61 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8891,7 +8915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 193.04 154.178 90)
 			(hide yes)
 			(show_name no)
@@ -9051,7 +9075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9062,7 +9086,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.hk/ProductDetail/Nexperia/BZT52-C15X?qs=%252BEew9%252B0nqrCP9M4nxqpvsw%3D%3D"
 			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9365,7 +9389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 199.39 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9445,7 +9469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 102.5652 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9603,7 +9627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 256.54 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +9708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
 			(at 30.48 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9754,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Value" "1k 0603"
+		(property "Value" "1k 0805"
 			(at 193.04 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9764,7 +9788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 193.04 123.698 90)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +9868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 45.72 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9855,7 +9879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf"
 			(at 48.26 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10084,7 +10108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 193.04 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -10476,7 +10500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 193.04 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -10711,7 +10735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 86.0552 134.62 0)
 			(hide yes)
 			(show_name no)
