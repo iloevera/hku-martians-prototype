@@ -285,14 +285,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "unconnected-(J2-GPIO14{slash}UART_TXD-Pad8)": [
-        "UART_TX"
-      ],
-      "unconnected-(J2-GPIO15{slash}UART_RXD-Pad10)": [
-        "UART_RX"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -441,7 +434,7 @@
         "uuid": "4a9ac192-968f-45b6-b822-e3973cb892fb"
       }
     ],
-    "used_designators": "U4,A1,D8,#PWR25-28,C5-6,FB1-2,F2-3",
+    "used_designators": "R6-7,J3-18,D6,#PWR21-23,#PWR29-62,C2-3,C7-9,H5-8",
     "variants": []
   },
   "sheets": [
