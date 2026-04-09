@@ -10,7 +10,6 @@
 		(rev "A")
 		(company "HKU ROVER Team")
 		(comment 1 "Designed by: Ilo Japar")
-		(comment 2 "Power")
 	)
 	(lib_symbols
 		(symbol "Conn_01x03_1"
@@ -6976,7 +6975,7 @@
 	)
 	(rectangle
 		(start 83.82 72.39)
-		(end 152.4 152.4)
+		(end 152.4 153.67)
 		(stroke
 			(width 0)
 			(type default)
@@ -7179,10 +7178,6 @@
 		(uuid "fe283e69-6833-4e82-9ca3-234d3acbe57b")
 	)
 	(no_connect
-		(at 320.04 97.79)
-		(uuid "06758f08-f07d-4514-8891-1b6be08a04f1")
-	)
-	(no_connect
 		(at 365.76 102.87)
 		(uuid "0a852744-7188-4843-a597-6b6df7fb4eae")
 	)
@@ -7203,20 +7198,12 @@
 		(uuid "10ed7228-f51c-42d8-a913-6853f3fe3ae8")
 	)
 	(no_connect
-		(at 295.91 162.56)
-		(uuid "15600c2a-865b-4a00-a346-a1424cc4ea63")
-	)
-	(no_connect
 		(at 191.77 90.17)
 		(uuid "18f66a2d-155f-4cf8-8d3b-369a8acafdbd")
 	)
 	(no_connect
 		(at 317.5 157.48)
 		(uuid "2161382e-7a81-432b-80f4-d5b8f7b21ffe")
-	)
-	(no_connect
-		(at 383.54 162.56)
-		(uuid "22112310-773e-425c-a02b-b33a2ea76622")
 	)
 	(no_connect
 		(at 257.81 77.47)
@@ -7233,10 +7220,6 @@
 	(no_connect
 		(at 339.09 157.48)
 		(uuid "2a50c055-1789-4fea-bf5c-1c68b7b61255")
-	)
-	(no_connect
-		(at 361.95 162.56)
-		(uuid "2b87d32a-b305-41c5-9b71-7eec1ee7a641")
 	)
 	(no_connect
 		(at 257.81 52.07)
@@ -7267,16 +7250,8 @@
 		(uuid "62c5bf94-f513-4f9c-aca6-dfe158177f70")
 	)
 	(no_connect
-		(at 339.09 162.56)
-		(uuid "67fab438-ab0c-4aeb-8874-20ad13c7fbf1")
-	)
-	(no_connect
 		(at 191.77 85.09)
 		(uuid "777625cb-18c9-4577-b6cc-d906ce72f149")
-	)
-	(no_connect
-		(at 320.04 100.33)
-		(uuid "7f77738c-399b-4c74-8847-5c474dfbb649")
 	)
 	(no_connect
 		(at 191.77 64.77)
@@ -7293,14 +7268,6 @@
 	(no_connect
 		(at 191.77 87.63)
 		(uuid "8dbb4d31-4a10-4a3f-ab67-991171944db3")
-	)
-	(no_connect
-		(at 273.05 162.56)
-		(uuid "93af95ba-2925-4c95-bb15-c9a7a5245845")
-	)
-	(no_connect
-		(at 317.5 162.56)
-		(uuid "94249ac1-24bd-43a9-9b94-4bf3f67c4f2a")
 	)
 	(no_connect
 		(at 257.81 54.61)
@@ -7325,10 +7292,6 @@
 	(no_connect
 		(at 361.95 157.48)
 		(uuid "a4b13816-22e1-4eef-8314-9f279dddd247")
-	)
-	(no_connect
-		(at 320.04 95.25)
-		(uuid "b3c141dc-492c-4e7f-90d2-7726f1b914ff")
 	)
 	(no_connect
 		(at 257.81 69.85)
@@ -7564,6 +7527,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 101.6) (xy 304.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c586bf-f37e-4466-b5fe-cbeb651a469c")
+	)
+	(wire
+		(pts
 			(xy 105.41 194.31) (xy 128.27 194.31)
 		)
 		(stroke
@@ -7691,6 +7664,16 @@
 			(type default)
 		)
 		(uuid "321aa364-aaf8-49fc-8b88-981d9c3cf5ff")
+	)
+	(wire
+		(pts
+			(xy 293.37 119.38) (xy 304.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3389b9ec-0bf3-48c1-8b7f-e0c30b00f627")
 	)
 	(wire
 		(pts
@@ -7934,16 +7917,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 87.63) (xy 320.04 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c03d16-dc80-4673-8470-e4a9e5811aae")
-	)
-	(wire
-		(pts
 			(xy 280.67 166.37) (xy 280.67 165.1)
 		)
 		(stroke
@@ -7971,16 +7944,6 @@
 			(type default)
 		)
 		(uuid "5aaf9069-4aaf-4880-a501-54b2a7586b1b")
-	)
-	(wire
-		(pts
-			(xy 308.61 85.09) (xy 320.04 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2969e3-748e-4a29-abdf-bbcb1488d9e5")
 	)
 	(wire
 		(pts
@@ -8174,6 +8137,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 106.68) (xy 304.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b13c533-b3ea-4b64-8156-868dcb6d1a9c")
+	)
+	(wire
+		(pts
 			(xy 218.44 191.77) (xy 218.44 201.93)
 		)
 		(stroke
@@ -8331,16 +8304,6 @@
 			(type default)
 		)
 		(uuid "9eec5930-9cb2-4390-a1a9-8a1791271409")
-	)
-	(wire
-		(pts
-			(xy 308.61 92.71) (xy 320.04 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f89e361-b5e6-4317-bd20-be91d9944dbf")
 	)
 	(wire
 		(pts
@@ -8564,6 +8527,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 109.22) (xy 304.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4715e44-0482-43cd-898e-e7ef1c130ff8")
+	)
+	(wire
+		(pts
 			(xy 365.76 87.63) (xy 381 87.63)
 		)
 		(stroke
@@ -8631,6 +8604,16 @@
 			(type default)
 		)
 		(uuid "c94b71ca-d021-457a-9f1a-13137b3c9ff4")
+	)
+	(wire
+		(pts
+			(xy 293.37 104.14) (xy 304.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ec7fac-c088-4475-896e-57b976433621")
 	)
 	(wire
 		(pts
@@ -8934,26 +8917,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 90.17) (xy 320.04 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa816d0f-c11c-4960-97f0-34aef8cd8f4f")
-	)
-	(wire
-		(pts
-			(xy 308.61 102.87) (xy 320.04 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd0f8407-aa18-40d5-95d2-56f010761257")
-	)
-	(wire
-		(pts
 			(xy 74.93 189.23) (xy 74.93 186.69)
 		)
 		(stroke
@@ -9025,6 +8988,16 @@
 		)
 		(uuid "15c4e6b0-d05c-47af-a278-4fa1eb3e88c1")
 	)
+	(label "SERVO_0"
+		(at 293.37 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1648463d-f5c3-483b-b1d6-9d3e7618a005")
+	)
 	(label "PICO_EN"
 		(at 179.07 44.45 0)
 		(effects
@@ -9034,16 +9007,6 @@
 			(justify left bottom)
 		)
 		(uuid "17bf7c96-0e16-432d-bfcd-4f3a44010822")
-	)
-	(label "SERVO_1"
-		(at 308.61 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b5121fc-522e-429d-b0d3-e7bd64638ca3")
 	)
 	(label "BLDC_1"
 		(at 308.61 72.39 0)
@@ -9136,6 +9099,16 @@
 		)
 		(uuid "587abbf0-747c-4703-8627-25f231b5a450")
 	)
+	(label "SERVO_1"
+		(at 293.37 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a04cd1c-fca8-44f3-8dbf-c655c13dd5a4")
+	)
 	(label "DC Motors"
 		(at 256.54 133.35 0)
 		(effects
@@ -9220,16 +9193,6 @@
 			(justify left bottom)
 		)
 		(uuid "75c23920-5d40-4bdf-a4b4-ad5e67c04004")
-	)
-	(label "SERVO_3"
-		(at 308.61 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "773c5051-0e90-4cac-a34c-fe1c5c8261ab")
 	)
 	(label "BLDC_5"
 		(at 308.61 82.55 0)
@@ -9404,16 +9367,6 @@
 		)
 		(uuid "c928be0c-d89f-440e-934a-66c1becbaa9f")
 	)
-	(label "PICO_INT"
-		(at 308.61 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb84ebcd-b0b0-433e-b9e3-1f208c007b40")
-	)
 	(label "UART_RX"
 		(at 179.07 54.61 0)
 		(effects
@@ -9423,6 +9376,16 @@
 			(justify left bottom)
 		)
 		(uuid "d86e56d2-dff4-47ca-a1b7-5b9a9a84f9f5")
+	)
+	(label "PICO_INT"
+		(at 293.37 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da7cf19d-4213-4d21-9508-90f89d60ebab")
 	)
 	(label "BLDC_4"
 		(at 308.61 80.01 0)
@@ -9435,14 +9398,14 @@
 		(uuid "ddef0304-dec4-43d4-ad63-0ba989c30ac0")
 	)
 	(label "SERVO_2"
-		(at 308.61 90.17 0)
+		(at 293.37 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e23a32a4-0117-4e61-8a9c-461fab331b3d")
+		(uuid "df8c25dd-50e2-4153-8744-99d67f09b8d2")
 	)
 	(label "SERVO_0"
 		(at 179.07 191.77 0)
@@ -9474,16 +9437,6 @@
 		)
 		(uuid "ece4159d-053d-4b98-b578-37ac59b0a551")
 	)
-	(label "SERVO_0"
-		(at 308.61 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f29ad57b-df85-41f5-88a6-6928b65e328e")
-	)
 	(label "BLDC_1"
 		(at 304.8 160.02 180)
 		(effects
@@ -9513,6 +9466,16 @@
 			(justify left bottom)
 		)
 		(uuid "f643c704-5278-4785-b682-128e590a328a")
+	)
+	(label "SERVO_3"
+		(at 293.37 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fce82631-986a-4577-abec-9754889dbb77")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x05")
