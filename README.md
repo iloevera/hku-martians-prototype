@@ -7,9 +7,9 @@ Rudimentary all-in-one Power Distribution Board (PDB) and logic carrier designed
 ## 🚀 Key Specifications
 - **Power Input:** 6S LiPo (22.2V nominal, 25.2V max) via XT60.
 - **Power Tree:**
-  - **12V @ 30A:** High-current rail for BLDC/DC Main Drive motors.
-  - **7.5V @ 5A:** Dedicated HV Servo rail (Optimized for 7.4V nominal servos).
-  - **5.1V @ 5A:** Stabilized logic power for Pi 5 and peripherals. 3V3 Using Pico's built-in regulator.
+  - **12V @ 30A:** High-current rail for BLDC/DC Main Drive motors. External module attached through XT30 connectors
+  - **7.5V @ 5A:** Dedicated HV Servo rail (Optimized for 7.4V nominal servos). External module attached through XT30 connectors
+  - **5.1V @ 5A:** SOn-board stabilized logic power for Pi 5 and peripherals. 3V3 Using Pico's built-in regulator.
 - **Processing:**
   - Dual-core architecture: Raspberry Pi 5 (Thinking) + Pi Pico 2 (Doing).
   - High-speed UART communication bridge.
@@ -18,12 +18,6 @@ Rudimentary all-in-one Power Distribution Board (PDB) and logic carrier designed
   - 6x PWM-Controlled DC motor driver headers.
   - 4x High-Torque Servo ports with localized bulk capacitance.
   - Integrated 6S Battery Fuel Gauge (Voltage Divider + ADC).
-
-## 🛡️ Protection Features
-- **Reverse Polarity Protection:** High-side MOSFET (SUD50P10) circuit.
-- **Logic Firewall:** Schottky isolation and TVS crowbar protection for 5V rails.
-- **EMI Suppression:** RC low-pass filters on all encoder inputs and ferrite beads on logic lines.
-- **Thermal Design:** Optimized for 2oz copper with solid-pour high-current paths.
 
 ## 🛠 Hardware Setup
 ### Battery Monitor Calibration
