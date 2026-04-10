@@ -1,4 +1,4 @@
-# HKU ROVER Team Prototype
+# HKU Martians Prototype Rover
 
 Rudimentary all-in-one Power Distribution Board (PDB) and logic carrier designed for small 6-wheel rovers with a 4-DoF robotic arm.
 
