@@ -1,6 +1,6 @@
 # HKU ROVER Team Prototype
 
-The Nucleus is a high-performance, all-in-one Power Distribution Board (PDB) and logic carrier designed for heavy-duty rovers. It bridges the gap between high-level path planning on a **Raspberry Pi 5** and real-time motor/sensor execution on a **Raspberry Pi Pico 2**.
+Rudimentary all-in-one Power Distribution Board (PDB) and logic carrier designed for small 6-wheel rovers with a 4-DoF robotic arm.
 
 ## 🚀 Key Specifications
 - **Power Input:** 6S LiPo (22.2V nominal, 25.2V max) via XT60.
