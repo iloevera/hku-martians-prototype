@@ -9075,6 +9075,16 @@
 		)
 		(uuid "096bda74-7d9b-4317-87a9-9ddf9aa03872")
 	)
+	(label "BLDC_3"
+		(at 308.61 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c84bc6d-f39d-404e-a617-0dddcd7da4b4")
+	)
 	(label "Raspberry Pi"
 		(at 157.48 19.05 0)
 		(effects
@@ -9086,16 +9096,6 @@
 		)
 		(uuid "0d417358-48ea-4b87-bcb4-bd92fdd62fd3")
 	)
-	(label "REV_5"
-		(at 377.19 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1054d7a4-fd0a-4b4a-850b-201dec223c88")
-	)
 	(label "BLDC_3"
 		(at 347.98 160.02 180)
 		(effects
@@ -9105,16 +9105,6 @@
 			(justify right bottom)
 		)
 		(uuid "15c4e6b0-d05c-47af-a278-4fa1eb3e88c1")
-	)
-	(label "BLDC_4"
-		(at 377.19 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16a49b6e-e4ca-4a6f-bdff-4816420dfb48")
 	)
 	(label "PICO_EN"
 		(at 179.07 44.45 0)
@@ -9126,6 +9116,16 @@
 		)
 		(uuid "17bf7c96-0e16-432d-bfcd-4f3a44010822")
 	)
+	(label "REV_0"
+		(at 308.61 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17c0c3e6-c797-4179-8673-5e0624d177a2")
+	)
 	(label "SERVO_1"
 		(at 218.44 191.77 0)
 		(effects
@@ -9136,15 +9136,25 @@
 		)
 		(uuid "1f8ca880-6a18-4e22-9953-1866af0c6e38")
 	)
-	(label "ENC_4"
-		(at 308.61 80.01 0)
+	(label "ENC_0"
+		(at 377.19 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2562a999-4236-41f7-80e0-e110cb24c071")
+	)
+	(label "BLDC_0"
+		(at 308.61 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "21e85bee-9de9-4a16-b8c1-dc672b2eb2cf")
+		(uuid "2aa171ad-3a94-47d0-947a-652ff297972b")
 	)
 	(label "12V to 5.1V"
 		(at 17.78 161.29 0)
@@ -9167,15 +9177,15 @@
 		)
 		(uuid "2ba898cb-4df5-49e9-b51f-ea83d5c0ba45")
 	)
-	(label "ENC_5"
-		(at 308.61 82.55 0)
+	(label "REV_2"
+		(at 308.61 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "36857e9f-43b0-45d7-abf6-f4a8a0069fa2")
+		(uuid "2f1ff680-a678-4220-bd42-bd2ea7c674e2")
 	)
 	(label "UART_TX"
 		(at 308.61 64.77 0)
@@ -9187,45 +9197,35 @@
 		)
 		(uuid "37433c6d-6b8f-4120-b4c3-ad41e59a7eb2")
 	)
-	(label "ENC_0"
-		(at 308.61 69.85 0)
+	(label "SERVO_2"
+		(at 308.61 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3fa0252d-a374-4740-964b-5f25164d7430")
+		(uuid "3a1ee6e4-6c18-402a-8dcc-32865b0ccc77")
 	)
-	(label "REV_1"
-		(at 308.61 97.79 0)
+	(label "REV_3"
+		(at 308.61 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4c269e9e-fa85-44df-b683-fccfc04a7b59")
+		(uuid "475a0c25-7536-4314-ad09-123db65c18aa")
 	)
-	(label "BLDC_1"
-		(at 308.61 95.25 0)
+	(label "SERVO_3"
+		(at 308.61 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4df4b157-115a-4f69-8e3b-dbab089fa942")
-	)
-	(label "BLDC_3"
-		(at 308.61 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f4aaeb0-895a-41a5-a900-591dd750da3a")
+		(uuid "4c4937c3-858b-40bb-8cf1-aca189393d49")
 	)
 	(label "BLDC_5"
 		(at 392.43 160.02 180)
@@ -9267,6 +9267,16 @@
 		)
 		(uuid "587abbf0-747c-4703-8627-25f231b5a450")
 	)
+	(label "ENC_3"
+		(at 377.19 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5963aa12-ec6e-4195-b793-f9d8ce019c6b")
+	)
 	(label "DC Motors"
 		(at 256.54 133.35 0)
 		(effects
@@ -9278,6 +9288,16 @@
 		)
 		(uuid "5fc240e4-d18c-4a20-a03b-302965e6ae82")
 	)
+	(label "REV_1"
+		(at 308.61 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60ff185c-abed-42fb-80ec-3c6861968330")
+	)
 	(label "22.2V to 12V"
 		(at 17.78 77.47 0)
 		(effects
@@ -9288,6 +9308,16 @@
 			(justify left bottom)
 		)
 		(uuid "6314d047-950f-4daf-8e1d-c3072e97878e")
+	)
+	(label "SERVO_0"
+		(at 308.61 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63337ba6-43cc-415a-bcbe-8498b7f6748e")
 	)
 	(label "Battery Input"
 		(at 16.51 19.05 0)
@@ -9321,16 +9351,6 @@
 		)
 		(uuid "6ed6a436-6102-4194-aadd-2a76685eb012")
 	)
-	(label "REV_2"
-		(at 308.61 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "730aef37-1b27-4320-a8c5-7de4e6bcc59f")
-	)
 	(label "22.2V to 7.5V"
 		(at 87.63 77.47 0)
 		(effects
@@ -9352,16 +9372,6 @@
 			(justify left bottom)
 		)
 		(uuid "7a073439-53c8-4e60-9c7f-9bc3f8fe8b47")
-	)
-	(label "BLDC_5"
-		(at 377.19 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c4a0702-728e-4a2c-a0b9-7eb530657497")
 	)
 	(label "REV_5"
 		(at 392.43 162.56 180)
@@ -9403,6 +9413,26 @@
 		)
 		(uuid "83d3ef62-4a85-4507-ae82-0ac4cce55caa")
 	)
+	(label "BLDC_5"
+		(at 377.19 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83e1c284-c11c-481b-be75-62bfbdb47777")
+	)
+	(label "BLDC_4"
+		(at 308.61 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8408f79f-6973-477c-9a7c-55d01bf2a918")
+	)
 	(label "ADC_IN"
 		(at 377.19 92.71 180)
 		(effects
@@ -9423,16 +9453,6 @@
 		)
 		(uuid "85d43f40-223b-4c13-a680-afc2b26bac80")
 	)
-	(label "SERVO_3"
-		(at 377.19 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86fbe089-59f2-4247-a88c-a7fc41b72645")
-	)
 	(label "ADC_IN"
 		(at 237.49 152.4 180)
 		(effects
@@ -9442,26 +9462,6 @@
 			(justify right bottom)
 		)
 		(uuid "8e025352-aa9a-4ff6-85bb-c20facade2d0")
-	)
-	(label "ENC_2"
-		(at 308.61 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "909e606b-55cc-4ac7-b6d5-576b972eb115")
-	)
-	(label "REV_3"
-		(at 308.61 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "929716a9-7659-4240-bacf-730793d2058f")
 	)
 	(label "SERVO_3"
 		(at 217.17 222.25 0)
@@ -9473,25 +9473,25 @@
 		)
 		(uuid "98bec351-3676-4091-8490-43f0a61a0a1e")
 	)
-	(label "SERVO_1"
-		(at 377.19 69.85 180)
+	(label "BLDC_1"
+		(at 308.61 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "9b8c00a6-93cc-4fca-afc8-99fe323f4287")
+		(uuid "9df2849a-8b75-41d4-b972-375ef1b1c913")
 	)
-	(label "SERVO_2"
-		(at 377.19 72.39 180)
+	(label "ENC_1"
+		(at 377.19 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9c07dbc9-eff7-4124-bf56-5199a872058c")
+		(uuid "a53786fa-d909-4927-bed5-03086681c523")
 	)
 	(label "BLDC_0"
 		(at 281.94 160.02 180)
@@ -9502,16 +9502,6 @@
 			(justify right bottom)
 		)
 		(uuid "a6272e0c-dd32-4113-8b6b-cb567aeb0600")
-	)
-	(label "ENC_3"
-		(at 308.61 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6b3d0e5-2c47-4ada-b012-7bca9b2c431b")
 	)
 	(label "Raspberry Pi Pico 2"
 		(at 290.83 19.05 0)
@@ -9533,6 +9523,36 @@
 			(justify left bottom)
 		)
 		(uuid "b85bba1a-3f90-46b8-a07b-9396391f8aca")
+	)
+	(label "SERVO_1"
+		(at 308.61 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb2eaa3a-eec2-436b-88f4-30500e2215ab")
+	)
+	(label "REV_4"
+		(at 308.61 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdbe2d1b-7fc0-4329-8e13-0de9b727fdbc")
+	)
+	(label "ENC_4"
+		(at 377.19 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c08dfd9a-7080-4d5b-a047-3b44e8031592")
 	)
 	(label "PICO_INT"
 		(at 179.07 46.99 0)
@@ -9565,45 +9585,15 @@
 		)
 		(uuid "c928be0c-d89f-440e-934a-66c1becbaa9f")
 	)
-	(label "ENC_1"
-		(at 308.61 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca764f97-e22d-4ead-83e6-c4f2cdc78b64")
-	)
-	(label "BLDC_2"
-		(at 308.61 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3b4627a-9a98-464f-9919-c79ffa4fa627")
-	)
-	(label "SERVO_0"
-		(at 377.19 67.31 180)
+	(label "ENC_5"
+		(at 377.19 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d5a7049b-c28e-4c8b-8e6f-baeb2fd3a5fd")
-	)
-	(label "BLDC_0"
-		(at 308.61 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d798efb7-961a-408f-b7d1-672b92b5d0d4")
+		(uuid "d61d7552-1263-4f2f-b4ab-0ea4c52bb65c")
 	)
 	(label "UART_RX"
 		(at 179.07 54.61 0)
@@ -9625,26 +9615,6 @@
 		)
 		(uuid "da7cf19d-4213-4d21-9508-90f89d60ebab")
 	)
-	(label "REV_4"
-		(at 377.19 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "db352728-c77b-4e94-8d56-279121b45f6d")
-	)
-	(label "REV_0"
-		(at 308.61 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcf26b00-6000-4714-98dc-d02804da556f")
-	)
 	(label "REV_3"
 		(at 347.98 162.56 180)
 		(effects
@@ -9654,6 +9624,26 @@
 			(justify right bottom)
 		)
 		(uuid "dd414209-01d6-4922-b7bb-5af081dcb340")
+	)
+	(label "REV_5"
+		(at 377.19 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddfe65c6-873f-48de-9436-11f055d77bb0")
+	)
+	(label "ENC_2"
+		(at 377.19 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2e515e8-fbbf-48f2-81ca-40c5aadfda7e")
 	)
 	(label "SERVO_0"
 		(at 179.07 191.77 0)
@@ -9684,6 +9674,16 @@
 			(justify left bottom)
 		)
 		(uuid "ece4159d-053d-4b98-b578-37ac59b0a551")
+	)
+	(label "BLDC_2"
+		(at 308.61 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed44853d-1842-4b5e-bf49-f874c4b29047")
 	)
 	(label "BLDC_1"
 		(at 304.8 160.02 180)
