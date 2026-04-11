@@ -15502,7 +15502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f09a88-da11-443a-bc63-96d49c2d985c")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 64.77 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15581,7 +15581,7 @@
 		(instances
 			(project "PCB v0.1"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
