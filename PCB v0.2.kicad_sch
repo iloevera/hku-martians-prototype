@@ -2351,6 +2351,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -6930,6 +7053,12 @@
 		(uuid "596f7ed4-f175-451f-a19a-7cac4904f611")
 	)
 	(junction
+		(at 62.23 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aec3ff8-ae5f-4d2a-b96b-cf4ee48799a0")
+	)
+	(junction
 		(at 222.25 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6940,6 +7069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "641d3b7f-9c8f-403d-8fcc-5469c8260b10")
+	)
+	(junction
+		(at 133.35 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d24125d-7d40-4ca6-a489-779e36254ac5")
 	)
 	(junction
 		(at 105.41 194.31)
@@ -6994,6 +7129,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d20f628e-94ca-40d7-8939-dc6ceda40287")
+	)
+	(junction
+		(at 347.98 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7e95dd8-c0dc-4cd7-a773-a24d36888dff")
 	)
 	(junction
 		(at 41.91 186.69)
@@ -7299,7 +7440,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 99.06 114.3)
+			(xy 102.87 114.3) (xy 95.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7499,6 +7640,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 34.29) (xy 347.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7a0576-89c7-4285-8899-fc6799764af3")
+	)
+	(wire
+		(pts
 			(xy 177.8 222.25) (xy 177.8 232.41)
 		)
 		(stroke
@@ -7589,7 +7740,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 137.16 111.76)
+			(xy 133.35 109.22) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7779,6 +7930,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 34.29) (xy 114.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f8ebf7-3ffa-474f-96ef-70ce5f18b6f7")
+	)
+	(wire
+		(pts
 			(xy 304.8 162.56) (xy 295.91 162.56)
 		)
 		(stroke
@@ -7819,7 +7980,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 99.06 111.76)
+			(xy 95.25 109.22) (xy 95.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7829,7 +7990,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 106.68 111.76)
+			(xy 95.25 111.76) (xy 102.87 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7959,7 +8120,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 129.54 114.3)
+			(xy 133.35 114.3) (xy 125.73 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8019,7 +8180,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 109.22) (xy 27.94 111.76)
+			(xy 24.13 109.22) (xy 24.13 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8109,7 +8270,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 31.75) (xy 347.98 41.91)
+			(xy 347.98 31.75) (xy 347.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8129,7 +8290,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 111.76) (xy 35.56 111.76)
+			(xy 24.13 111.76) (xy 31.75 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8219,7 +8380,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 111.76) (xy 58.42 111.76)
+			(xy 62.23 111.76) (xy 54.61 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8289,7 +8450,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 114.3) (xy 58.42 114.3)
+			(xy 62.23 114.3) (xy 54.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8309,7 +8470,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 109.22) (xy 66.04 111.76)
+			(xy 62.23 109.22) (xy 62.23 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8389,7 +8550,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 114.3) (xy 27.94 114.3)
+			(xy 31.75 114.3) (xy 24.13 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8839,7 +9000,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 137.16 111.76)
+			(xy 125.73 111.76) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9561,7 +9722,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 356.87 160.02 180)
+		(at 334.01 160.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9569,9 +9730,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "037d21b0-3124-4c1e-ac58-3a92f9f86781")
-		(property "Reference" "J11"
-			(at 356.87 151.638 0)
+		(uuid "0168abb4-ff2b-46f6-b429-8cff4ccf7ac1")
+		(property "Reference" "J10"
+			(at 334.01 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9581,7 +9742,7 @@
 			)
 		)
 		(property "Value" "Screw 2.54mm 5P"
-			(at 356.87 168.91 0)
+			(at 334.01 169.418 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9591,8 +9752,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 356.87 160.02 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+			(at 334.01 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,7 +9764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 160.02 0)
+			(at 334.01 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9614,7 +9775,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 356.87 160.02 0)
+			(at 334.01 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9625,7 +9786,7 @@
 			)
 		)
 		(property "Taobao" "https://item.taobao.com/item.htm?id=642057328277&skuId=4619071856328&spm=a312a.7700824.w4002-24706531953.9.616f6a4bcbuCcZ"
-			(at 356.87 160.02 0)
+			(at 334.01 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9636,24 +9797,24 @@
 			)
 		)
 		(pin "3"
-			(uuid "563d9094-e7c0-4db4-ac1b-3ed18b8615fd")
+			(uuid "1e1ffc0b-8b96-4e97-a9a9-1c6a5e5a869a")
 		)
 		(pin "4"
-			(uuid "716a1de1-ea64-4f48-99bb-cad2a2d93a48")
+			(uuid "0cf9f46c-97d2-4982-98dc-1f977c5211dd")
 		)
 		(pin "1"
-			(uuid "5c4e2442-b467-4dce-bca1-0a154c315762")
+			(uuid "eae90b7a-465e-460f-826a-478b72cf87b3")
 		)
 		(pin "2"
-			(uuid "ba3bb047-5fdd-40dc-8101-358758deec33")
+			(uuid "1d025fea-81ff-4c5a-8724-c30ba158f58a")
 		)
 		(pin "5"
-			(uuid "4dd22f95-f7dd-4d1d-91ca-190ee6bff394")
+			(uuid "b63ef735-0f5c-47ef-9caf-ada89733adff")
 		)
 		(instances
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9738,7 +9899,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 137.16 109.22 0)
+		(at 133.35 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9749,7 +9910,7 @@
 		(fields_autoplaced yes)
 		(uuid "06b74335-c211-44d8-8551-3c30201009fe")
 		(property "Reference" "#PWR014"
-			(at 137.16 113.03 0)
+			(at 133.35 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,7 +9921,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 137.16 104.14 0)
+			(at 133.35 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9770,7 +9931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 109.22 0)
+			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +9942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 109.22 0)
+			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +9953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 137.16 109.22 0)
+			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,6 +9970,85 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 194.31 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07ab9ca2-dd97-4169-bd6e-06c6445dddea")
+		(property "Reference" "TP5"
+			(at 196.85 147.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 196.85 150.3679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 199.39 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 194.31 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8e50421-4df5-4046-a36e-261f45c17662")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9894,7 +10134,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 114.3 0)
+		(at 24.13 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9905,7 +10145,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b5d70e0-7092-4e16-aeca-bfa37566d50a")
 		(property "Reference" "#PWR015"
-			(at 27.94 120.65 0)
+			(at 24.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9916,7 +10156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 119.38 0)
+			(at 24.13 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9926,7 +10166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 114.3 0)
+			(at 24.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9937,7 +10177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 114.3 0)
+			(at 24.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9948,7 +10188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 114.3 0)
+			(at 24.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,6 +10283,85 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10d7d1a1-ac8b-4171-ae41-f3b6ca81ccf9")
+		(property "Reference" "TP1"
+			(at 116.84 29.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 32.2579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f57b0911-f127-41c9-aad8-4cb1d8376bea")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10964,7 +11283,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 114.3 0)
+		(at 95.25 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10975,7 +11294,7 @@
 		(fields_autoplaced yes)
 		(uuid "26d74e13-60f1-4dec-a488-b02746c291d6")
 		(property "Reference" "#PWR017"
-			(at 99.06 120.65 0)
+			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10986,7 +11305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 119.38 0)
+			(at 95.25 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10996,7 +11315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 114.3 0)
+			(at 95.25 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11007,7 +11326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 114.3 0)
+			(at 95.25 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 114.3 0)
+			(at 95.25 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11193,6 +11512,85 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b11290-50e1-4acd-b4f3-fed45cb8ba0a")
+		(property "Reference" "TP6"
+			(at 107.95 182.1179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 184.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 110.49 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0b5b086-aba4-4190-9960-db4be9b2b70e")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11434,7 +11832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 119.38 0)
+		(at 107.95 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11445,7 +11843,7 @@
 		(fields_autoplaced yes)
 		(uuid "3320d70f-1768-45a6-9b9c-ab38f4a07f4e")
 		(property "Reference" "#PWR071"
-			(at 111.76 125.73 0)
+			(at 107.95 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +11854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 124.46 0)
+			(at 107.95 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11466,7 +11864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 119.38 0)
+			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11477,7 +11875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 119.38 0)
+			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11488,7 +11886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 119.38 0)
+			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12556,106 +12954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 334.01 160.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "410d941d-e855-469d-88b5-88813cbc47cb")
-		(property "Reference" "J10"
-			(at 334.01 151.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw 2.54mm 5P"
-			(at 334.01 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 334.01 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 334.01 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Taobao" "https://item.taobao.com/item.htm?id=642057328277&skuId=4619071856328&spm=a312a.7700824.w4002-24706531953.9.616f6a4bcbuCcZ"
-			(at 334.01 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ca7e5aaf-bb3b-4aeb-b722-202d71ee4d45")
-		)
-		(pin "4"
-			(uuid "e220205e-b381-4642-a713-afa5fce1afcb")
-		)
-		(pin "1"
-			(uuid "105e2905-6dfa-421d-a031-ea38988a6ca1")
-		)
-		(pin "2"
-			(uuid "0cc36fb6-e4a3-4e09-a64d-5d9643e6beb4")
-		)
-		(pin "5"
-			(uuid "5fab2c11-9173-40b2-b740-8ae72f0ac5a4")
-		)
-		(instances
-			(project "PCB v0.2"
-				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 382.27 80.01 0)
 		(unit 1)
@@ -13388,7 +13686,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 99.06 109.22 0)
+		(at 95.25 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13399,7 +13697,7 @@
 		(fields_autoplaced yes)
 		(uuid "65453b18-a41f-409a-a48b-18997135682f")
 		(property "Reference" "#PWR013"
-			(at 99.06 113.03 0)
+			(at 95.25 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13410,7 +13708,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 99.06 104.14 0)
+			(at 95.25 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13420,7 +13718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 109.22 0)
+			(at 95.25 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13431,7 +13729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 109.22 0)
+			(at 95.25 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,7 +13740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 99.06 109.22 0)
+			(at 95.25 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13750,106 +14048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 312.42 160.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "674e3759-4638-4972-a1f8-2abe61d188bb")
-		(property "Reference" "J9"
-			(at 312.42 151.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw 2.54mm 5P"
-			(at 312.42 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 312.42 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 312.42 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Taobao" "https://item.taobao.com/item.htm?id=642057328277&skuId=4619071856328&spm=a312a.7700824.w4002-24706531953.9.616f6a4bcbuCcZ"
-			(at 312.42 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "dba973e1-1de3-4944-a016-945ddc8d5eaf")
-		)
-		(pin "4"
-			(uuid "d7390e0e-8dc3-4f21-af50-6e3ee0029230")
-		)
-		(pin "1"
-			(uuid "f85abcd3-e128-4ff8-9095-703bf8567125")
-		)
-		(pin "2"
-			(uuid "0ab7d4b0-aed8-4ab6-a8be-d828e5805302")
-		)
-		(pin "5"
-			(uuid "a0136382-28ee-474a-b968-9a2e00f9c794")
-		)
-		(instances
-			(project "PCB v0.2"
-				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 97.79 250.19 90)
 		(unit 1)
@@ -14046,7 +14244,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 119.38 0)
+		(at 49.53 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14057,7 +14255,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cb27733-1246-46ab-a893-3bbb08f20db4")
 		(property "Reference" "#PWR070"
-			(at 53.34 125.73 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14068,7 +14266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 124.46 0)
+			(at 49.53 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14078,7 +14276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 119.38 0)
+			(at 49.53 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14089,7 +14287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 119.38 0)
+			(at 49.53 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14100,7 +14298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 119.38 0)
+			(at 49.53 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14117,6 +14315,185 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cca32f7-b999-4b3e-b3de-c3197ca32951")
+		(property "Reference" "TP4"
+			(at 138.43 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 133.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b24f6efb-a9fc-4aa2-85f4-065bcc631d15")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x05")
+		(at 290.83 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d53a8a1-c2bc-41e3-b880-88b343ed9882")
+		(property "Reference" "J8"
+			(at 290.83 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw 2.54mm 5P"
+			(at 290.83 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+			(at 290.83 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 290.83 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Taobao" "https://item.taobao.com/item.htm?id=642057328277&skuId=4619071856328&spm=a312a.7700824.w4002-24706531953.9.616f6a4bcbuCcZ"
+			(at 290.83 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7de074ac-16fe-48f1-aa54-645d11b4d092")
+		)
+		(pin "4"
+			(uuid "053dc013-19aa-48b0-aca2-7b5ef274b60c")
+		)
+		(pin "1"
+			(uuid "3d2c6304-ece3-4289-ae5b-263d2f5da4b2")
+		)
+		(pin "2"
+			(uuid "5539b992-d22d-4455-b108-7105938a2017")
+		)
+		(pin "5"
+			(uuid "b9947aa3-1f7a-49f0-bcb0-571825841b58")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14985,7 +15362,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 119.38 0)
+		(at 36.83 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14996,7 +15373,7 @@
 		(fields_autoplaced yes)
 		(uuid "8699b536-dfa0-4eda-9d2b-8bce030e32e1")
 		(property "Reference" "#PWR069"
-			(at 40.64 125.73 0)
+			(at 36.83 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15007,7 +15384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 124.46 0)
+			(at 36.83 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15017,7 +15394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 119.38 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15028,7 +15405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 119.38 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15039,7 +15416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 119.38 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15418,7 +15795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Buck_Converter_44x22mm"
+		(property "Footprint" "Library:Buck_Converter_54x24mm"
 			(at 64.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15656,7 +16033,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 27.94 109.22 0)
+		(at 24.13 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15667,7 +16044,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ea00453-eb60-4ea4-b1a3-1156a603d3d7")
 		(property "Reference" "#PWR011"
-			(at 27.94 113.03 0)
+			(at 24.13 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15678,7 +16055,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 27.94 104.14 0)
+			(at 24.13 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15688,7 +16065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 109.22 0)
+			(at 24.13 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15699,7 +16076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 109.22 0)
+			(at 24.13 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15710,7 +16087,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 27.94 109.22 0)
+			(at 24.13 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16343,7 +16720,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 66.04 109.22 0)
+		(at 62.23 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16354,7 +16731,7 @@
 		(fields_autoplaced yes)
 		(uuid "97acd667-4dd7-4069-a15e-b6f5d4d256a4")
 		(property "Reference" "#PWR012"
-			(at 66.04 113.03 0)
+			(at 62.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16365,7 +16742,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 66.04 104.14 0)
+			(at 62.23 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16375,7 +16752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 109.22 0)
+			(at 62.23 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16386,7 +16763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 109.22 0)
+			(at 62.23 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16397,7 +16774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 66.04 109.22 0)
+			(at 62.23 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16843,7 +17220,7 @@
 	(symbol
 		(lib_name "Conn_01x02_MountingPin_1")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 40.64 114.3 0)
+		(at 36.83 114.3 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16854,7 +17231,7 @@
 		(dnp no)
 		(uuid "9e0f8619-5ce0-4451-82fd-975cdb75ed6f")
 		(property "Reference" "J3"
-			(at 40.64 108.204 0)
+			(at 36.83 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16864,7 +17241,7 @@
 			)
 		)
 		(property "Value" "XT30-F"
-			(at 40.64 105.664 0)
+			(at 36.83 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16874,7 +17251,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 40.64 114.3 0)
+			(at 36.83 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16885,7 +17262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 114.3 0)
+			(at 36.83 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16896,7 +17273,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 40.64 114.3 0)
+			(at 36.83 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16907,7 +17284,7 @@
 			)
 		)
 		(property "Taobao" "https://item.taobao.com/item.htm?from=cart&id=635227665423&skuId=4544457080563&spm=a1z0d.6639537%2F202410.item.d635227665423.61d47484pd6qiZ&upStreamPrice=247"
-			(at 40.64 114.3 0)
+			(at 36.83 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16930,6 +17307,85 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 347.98 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a041660e-f64b-48b1-a502-f534ccc8d8b2")
+		(property "Reference" "TP2"
+			(at 353.06 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 353.06 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 347.98 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 347.98 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61c667c5-e738-4201-bf8f-170cd9ad4ec5")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17176,6 +17632,85 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3ae94cf-18f6-4207-bf3c-619ba30d1bf9")
+		(property "Reference" "TP3"
+			(at 67.31 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 62.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10edaf73-4413-4608-bab5-021080ee9578")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -17506,6 +18041,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x05")
+		(at 356.87 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aad6d5aa-1d7f-448c-9e1f-0971e8fa28f0")
+		(property "Reference" "J11"
+			(at 356.87 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw 2.54mm 5P"
+			(at 356.87 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+			(at 356.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 356.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Taobao" "https://item.taobao.com/item.htm?id=642057328277&skuId=4619071856328&spm=a312a.7700824.w4002-24706531953.9.616f6a4bcbuCcZ"
+			(at 356.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5ae5d43c-61cd-4c83-ac87-d38be8e66d50")
+		)
+		(pin "4"
+			(uuid "853909ab-a7cd-43bd-aa9e-3713cee37c7b")
+		)
+		(pin "1"
+			(uuid "db05c98d-726c-414a-961b-4a46fa7a056e")
+		)
+		(pin "2"
+			(uuid "194d6c32-8c80-4133-9696-82208b18793f")
+		)
+		(pin "5"
+			(uuid "091b0cc4-d556-4bd9-96a1-93a2977b897d")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 223.52 207.01 0)
 		(unit 1)
@@ -17585,7 +18220,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 114.3 0)
+		(at 133.35 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17596,7 +18231,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad4ba01e-f673-4fde-b3ba-d70b8be4f985")
 		(property "Reference" "#PWR018"
-			(at 137.16 120.65 0)
+			(at 133.35 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17607,7 +18242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 119.38 0)
+			(at 133.35 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17617,7 +18252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 114.3 0)
+			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17628,7 +18263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 114.3 0)
+			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17639,7 +18274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 114.3 0)
+			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18570,7 +19205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 267.97 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -18633,106 +19268,6 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 290.83 160.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c3768d57-f66c-4c92-9595-a0b7c4a8e669")
-		(property "Reference" "J8"
-			(at 290.83 151.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw 2.54mm 5P"
-			(at 290.83 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 290.83 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 290.83 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Taobao" "https://item.taobao.com/item.htm?id=642057328277&skuId=4619071856328&spm=a312a.7700824.w4002-24706531953.9.616f6a4bcbuCcZ"
-			(at 290.83 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "3817ed49-ca7c-419f-ae2b-b1bb0ac32e5d")
-		)
-		(pin "4"
-			(uuid "a534fb5b-fdaa-4590-a413-60bb338ffbc9")
-		)
-		(pin "1"
-			(uuid "1f3d3caa-ddd5-4e39-8926-5a6749cc276d")
-		)
-		(pin "2"
-			(uuid "b6e9a1ad-7c0c-44ef-9e1f-c51df653d572")
-		)
-		(pin "5"
-			(uuid "ed56e468-44b0-44eb-9b43-9cdc82d125de")
-		)
-		(instances
-			(project "PCB v0.2"
-				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -19007,7 +19542,7 @@
 	(symbol
 		(lib_name "Conn_01x02_MountingPin_1")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 53.34 114.3 180)
+		(at 49.53 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19017,7 +19552,7 @@
 		(dnp no)
 		(uuid "cd1e0b12-7cb9-4610-9327-e7079ec1e9eb")
 		(property "Reference" "J4"
-			(at 53.34 108.204 0)
+			(at 49.53 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19027,7 +19562,7 @@
 			)
 		)
 		(property "Value" "XT30-M"
-			(at 53.34 105.664 0)
+			(at 49.53 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19037,7 +19572,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 53.34 114.3 0)
+			(at 49.53 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19048,7 +19583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 114.3 0)
+			(at 49.53 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19059,7 +19594,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 114.3 0)
+			(at 49.53 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19070,7 +19605,7 @@
 			)
 		)
 		(property "Taobao" "https://item.taobao.com/item.htm?from=cart&id=635227665423&skuId=4544457080563&spm=a1z0d.6639537%2F202410.item.d635227665423.61d47484pd6qiZ&upStreamPrice=247"
-			(at 53.34 114.3 0)
+			(at 49.53 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19336,7 +19871,7 @@
 	(symbol
 		(lib_name "Conn_01x02_MountingPin_1")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 124.46 114.3 180)
+		(at 120.65 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19346,7 +19881,7 @@
 		(dnp no)
 		(uuid "cfb91f83-51ae-433d-b133-4bf3fabd25b9")
 		(property "Reference" "J6"
-			(at 124.46 108.204 0)
+			(at 120.65 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19356,7 +19891,7 @@
 			)
 		)
 		(property "Value" "XT30-M"
-			(at 124.46 105.664 0)
+			(at 120.65 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19366,7 +19901,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 124.46 114.3 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19377,7 +19912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 114.3 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19388,7 +19923,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 114.3 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19399,7 +19934,7 @@
 			)
 		)
 		(property "Taobao" "https://item.taobao.com/item.htm?from=cart&id=635227665423&skuId=4544457080563&spm=a1z0d.6639537%2F202410.item.d635227665423.61d47484pd6qiZ&upStreamPrice=247"
-			(at 124.46 114.3 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19992,7 +20527,7 @@
 	(symbol
 		(lib_name "Conn_01x02_MountingPin_1")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 111.76 114.3 0)
+		(at 107.95 114.3 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -20003,7 +20538,7 @@
 		(dnp no)
 		(uuid "e8df38d2-7fe0-48b9-a8cf-a4dd92bb1450")
 		(property "Reference" "J5"
-			(at 111.76 108.204 0)
+			(at 107.95 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20013,7 +20548,7 @@
 			)
 		)
 		(property "Value" "XT30-F"
-			(at 111.76 105.664 0)
+			(at 107.95 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20023,7 +20558,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 111.76 114.3 0)
+			(at 107.95 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20034,7 +20569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 114.3 0)
+			(at 107.95 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20045,7 +20580,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 114.3 0)
+			(at 107.95 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20056,7 +20591,7 @@
 			)
 		)
 		(property "Taobao" "https://item.taobao.com/item.htm?from=cart&id=635227665423&skuId=4544457080563&spm=a1z0d.6639537%2F202410.item.d635227665423.61d47484pd6qiZ&upStreamPrice=247"
-			(at 111.76 114.3 0)
+			(at 107.95 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20505,6 +21040,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 62.23 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f32ee449-2d81-492b-8746-d0c944538970")
+		(property "Reference" "#PWR016"
+			(at 62.23 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87ef24e8-3836-4d59-8582-84f4b5ca530e")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35ea055-2465-4bc9-88be-92c59273d97c")
+		(property "Reference" "#PWR072"
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e778a06-b4ae-480d-b865-cade73860211")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x05")
 		(at 378.46 160.02 180)
 		(unit 1)
@@ -20514,7 +21205,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f08e6c28-d1ef-436f-b0bd-7f2f84d29673")
+		(uuid "f423f0a8-f8f3-414b-97e3-bb7a737dc49c")
 		(property "Reference" "J12"
 			(at 378.46 151.638 0)
 			(show_name no)
@@ -20526,7 +21217,7 @@
 			)
 		)
 		(property "Value" "Screw 2.54mm 5P"
-			(at 378.46 168.91 0)
+			(at 378.46 169.418 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20536,7 +21227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 378.46 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -20581,180 +21272,24 @@
 			)
 		)
 		(pin "3"
-			(uuid "beb56579-5c71-4fde-8e3a-e41a6547e177")
+			(uuid "71d156f5-f275-407d-9955-0dbe82aa47bd")
 		)
 		(pin "4"
-			(uuid "1b0f9f44-05a7-4af5-909a-116a70427ea5")
+			(uuid "0dbe63ce-ed2e-4868-bda0-3dd0dd2cf65e")
 		)
 		(pin "1"
-			(uuid "c12c4474-94a9-4149-90fa-c39873878e1c")
+			(uuid "729c2ab3-9b59-4c9a-b7a4-9ac61efcd664")
 		)
 		(pin "2"
-			(uuid "673b3a09-8065-455b-8533-e65136a90999")
+			(uuid "a6798c64-b8bb-428f-8766-2cfef262edd9")
 		)
 		(pin "5"
-			(uuid "b49f5910-3be2-4c28-9659-5621118b5c28")
+			(uuid "04da71ba-68ae-4c36-b614-617281653941")
 		)
 		(instances
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f32ee449-2d81-492b-8746-d0c944538970")
-		(property "Reference" "#PWR016"
-			(at 66.04 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87ef24e8-3836-4d59-8582-84f4b5ca530e")
-		)
-		(instances
-			(project "PCB v0.2"
-				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f35ea055-2465-4bc9-88be-92c59273d97c")
-		(property "Reference" "#PWR072"
-			(at 124.46 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e778a06-b4ae-480d-b865-cade73860211")
-		)
-		(instances
-			(project "PCB v0.2"
-				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -21094,6 +21629,106 @@
 			(project "PCB v0.2"
 				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x05")
+		(at 312.42 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffb786ac-c2af-4979-9f08-03cd14af24f9")
+		(property "Reference" "J9"
+			(at 312.42 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw 2.54mm 5P"
+			(at 312.42 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+			(at 312.42 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 312.42 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Taobao" "https://item.taobao.com/item.htm?id=642057328277&skuId=4619071856328&spm=a312a.7700824.w4002-24706531953.9.616f6a4bcbuCcZ"
+			(at 312.42 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "68fb1629-e469-4f1b-8263-28dab9681d89")
+		)
+		(pin "4"
+			(uuid "520c0fec-1915-4e6f-bf11-133941c94a8b")
+		)
+		(pin "1"
+			(uuid "77f470b7-bbc2-4225-b944-c00e6fed48fc")
+		)
+		(pin "2"
+			(uuid "df2d979a-a30f-40c3-802b-37c791a119d6")
+		)
+		(pin "5"
+			(uuid "eb03f02e-e3ca-4eec-a185-e0de5e128f7f")
+		)
+		(instances
+			(project "PCB v0.2"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "J9")
 					(unit 1)
 				)
 			)
