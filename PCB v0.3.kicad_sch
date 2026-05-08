@@ -11841,7 +11841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
 			(at 63.5 38.608 90)
 			(hide yes)
 			(show_name no)
