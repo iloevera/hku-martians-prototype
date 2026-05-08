@@ -6953,10 +6953,6 @@
 		(uuid "e6ace1e1-f45c-483e-bd14-9c76e2292a7a")
 	)
 	(no_connect
-		(at 365.76 102.87)
-		(uuid "0a852744-7188-4843-a597-6b6df7fb4eae")
-	)
-	(no_connect
 		(at 246.38 71.12)
 		(uuid "0c3c5885-a288-4248-a5cd-e7656580de08")
 	)
@@ -7177,6 +7173,16 @@
 			(type default)
 		)
 		(uuid "0d3dd284-c4ab-4914-a8b0-79ed2cb4334e")
+	)
+	(wire
+		(pts
+			(xy 368.3 104.14) (xy 368.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4b6c9c-9dc8-4b7a-864d-b3b296065924")
 	)
 	(wire
 		(pts
@@ -8337,6 +8343,16 @@
 			(type default)
 		)
 		(uuid "b6a73ed0-603a-4623-bacb-e9dc4d8042b4")
+	)
+	(wire
+		(pts
+			(xy 368.3 102.87) (xy 365.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba95f596-4632-4b2d-ae0b-fc1819005215")
 	)
 	(wire
 		(pts
@@ -17279,6 +17295,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 368.3 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a38bf678-b140-4ae0-a2dc-21b5cdc7358f")
+		(property "Reference" "#PWR078"
+			(at 368.3 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f6a7cce-b780-472d-8291-0c783570e02c")
+		)
+		(instances
+			(project "PCB v0.3"
+				(path "/4a9ac192-968f-45b6-b822-e3973cb892fb"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 62.23 111.76 270)
 		(unit 1)
@@ -19710,7 +19805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 95.25 185.42 0)
 			(hide yes)
 			(show_name no)
