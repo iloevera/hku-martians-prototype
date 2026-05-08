@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB v0.2.kicad_pro",
+    "filename": "PCB v0.3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -651,18 +651,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB v0.2.kicad_sch",
-        "name": "PCB v0.2",
+        "filename": "PCB v0.3.kicad_sch",
+        "name": "PCB v0.3",
         "uuid": "4a9ac192-968f-45b6-b822-e3973cb892fb"
       }
     ],
-    "used_designators": "TP1-6,J8-12",
+    "used_designators": "TP1-6,R9,J8-12",
     "variants": []
   },
   "sheets": [
     [
       "4a9ac192-968f-45b6-b822-e3973cb892fb",
-      "PCB v0.2"
+      "PCB v0.3"
     ]
   ],
   "text_variables": {},
