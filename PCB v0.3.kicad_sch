@@ -8856,16 +8856,6 @@
 		)
 		(uuid "096bda74-7d9b-4317-87a9-9ddf9aa03872")
 	)
-	(label "BLDC_3"
-		(at 308.61 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c84bc6d-f39d-404e-a617-0dddcd7da4b4")
-	)
 	(label "Raspberry Pi"
 		(at 157.48 19.05 0)
 		(effects
@@ -8876,6 +8866,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d417358-48ea-4b87-bcb4-bd92fdd62fd3")
+	)
+	(label "BLDC_5"
+		(at 308.61 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1095f8ef-528d-4e29-880f-e9f2a3e35a63")
 	)
 	(label "BLDC_3"
 		(at 294.64 182.88 180)
@@ -8897,15 +8897,15 @@
 		)
 		(uuid "17bf7c96-0e16-432d-bfcd-4f3a44010822")
 	)
-	(label "REV_0"
-		(at 308.61 74.93 0)
+	(label "REV_5"
+		(at 308.61 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "17c0c3e6-c797-4179-8673-5e0624d177a2")
+		(uuid "1c4707d8-5551-4d74-b63f-daeef4194747")
 	)
 	(label "SERVO_1"
 		(at 207.01 146.05 0)
@@ -8926,16 +8926,6 @@
 			(justify right bottom)
 		)
 		(uuid "2562a999-4236-41f7-80e0-e110cb24c071")
-	)
-	(label "BLDC_0"
-		(at 308.61 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2aa171ad-3a94-47d0-947a-652ff297972b")
 	)
 	(label "12V to 5.1V"
 		(at 17.78 161.29 0)
@@ -8958,15 +8948,15 @@
 		)
 		(uuid "2ba898cb-4df5-49e9-b51f-ea83d5c0ba45")
 	)
-	(label "REV_2"
-		(at 308.61 87.63 0)
+	(label "REV_4"
+		(at 308.61 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2f1ff680-a678-4220-bd42-bd2ea7c674e2")
+		(uuid "2c6b5c0f-fa43-4c1f-9cdd-d4a1eeb6a5d8")
 	)
 	(label "UART_TX"
 		(at 308.61 64.77 0)
@@ -8988,15 +8978,15 @@
 		)
 		(uuid "3a1ee6e4-6c18-402a-8dcc-32865b0ccc77")
 	)
-	(label "REV_3"
-		(at 308.61 82.55 0)
+	(label "BLDC_4"
+		(at 308.61 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "475a0c25-7536-4314-ad09-123db65c18aa")
+		(uuid "41c142a2-3c41-46b2-95d8-eebb0770b8f3")
 	)
 	(label "SERVO_3"
 		(at 308.61 102.87 0)
@@ -9069,16 +9059,6 @@
 		)
 		(uuid "5fc240e4-d18c-4a20-a03b-302965e6ae82")
 	)
-	(label "REV_1"
-		(at 308.61 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60ff185c-abed-42fb-80ec-3c6861968330")
-	)
 	(label "22.2V to 12V"
 		(at 17.78 77.47 0)
 		(effects
@@ -9143,6 +9123,16 @@
 		)
 		(uuid "75c23920-5d40-4bdf-a4b4-ad5e67c04004")
 	)
+	(label "BLDC_3"
+		(at 308.61 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78045a6e-14c3-4663-989d-121fdb1030fd")
+	)
 	(label "Mounting"
 		(at 157.48 260.35 0)
 		(effects
@@ -9194,26 +9184,6 @@
 		)
 		(uuid "83d3ef62-4a85-4507-ae82-0ac4cce55caa")
 	)
-	(label "BLDC_5"
-		(at 377.19 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83e1c284-c11c-481b-be75-62bfbdb47777")
-	)
-	(label "BLDC_4"
-		(at 308.61 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8408f79f-6973-477c-9a7c-55d01bf2a918")
-	)
 	(label "ADC_IN"
 		(at 377.19 92.71 180)
 		(effects
@@ -9262,7 +9232,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9df2849a-8b75-41d4-b972-375ef1b1c913")
+		(uuid "9fb73461-41a5-4ace-bf97-35db4e5406fe")
 	)
 	(label "ENC_1"
 		(at 377.19 74.93 180)
@@ -9315,15 +9285,15 @@
 		)
 		(uuid "bb2eaa3a-eec2-436b-88f4-30500e2215ab")
 	)
-	(label "REV_4"
-		(at 308.61 69.85 0)
+	(label "REV_3"
+		(at 308.61 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bdbe2d1b-7fc0-4329-8e13-0de9b727fdbc")
+		(uuid "bc3c4558-19ef-491e-a083-65af3fe38da1")
 	)
 	(label "ENC_4"
 		(at 377.19 95.25 180)
@@ -9376,6 +9346,16 @@
 		)
 		(uuid "d61d7552-1263-4f2f-b4ab-0ea4c52bb65c")
 	)
+	(label "REV_0"
+		(at 377.19 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7ace653-8879-402a-9e1c-8add2d8f2e45")
+	)
 	(label "UART_RX"
 		(at 167.64 58.42 0)
 		(effects
@@ -9405,16 +9385,6 @@
 			(justify right bottom)
 		)
 		(uuid "dd414209-01d6-4922-b7bb-5af081dcb340")
-	)
-	(label "REV_5"
-		(at 377.19 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddfe65c6-873f-48de-9436-11f055d77bb0")
 	)
 	(label "ENC_2"
 		(at 377.19 72.39 180)
@@ -9446,6 +9416,16 @@
 		)
 		(uuid "ea26bb75-db6c-4306-959b-b7fadd21cf46")
 	)
+	(label "BLDC_2"
+		(at 308.61 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb5d226b-a20f-4c8c-ade6-0508b264a6a8")
+	)
 	(label "ENC_4"
 		(at 363.22 226.06 0)
 		(effects
@@ -9456,15 +9436,15 @@
 		)
 		(uuid "ece4159d-053d-4b98-b578-37ac59b0a551")
 	)
-	(label "BLDC_2"
-		(at 308.61 85.09 0)
+	(label "REV_2"
+		(at 308.61 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ed44853d-1842-4b5e-bf49-f874c4b29047")
+		(uuid "f4fa85d2-23b1-45a3-b931-0b8d041c9df7")
 	)
 	(label "BLDC_1"
 		(at 323.85 154.94 180)
@@ -9485,6 +9465,26 @@
 			(justify left bottom)
 		)
 		(uuid "f643c704-5278-4785-b682-128e590a328a")
+	)
+	(label "REV_1"
+		(at 308.61 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc6e6259-bfc7-4a5a-80c7-92a987725b38")
+	)
+	(label "BLDC_0"
+		(at 377.19 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffbeaf8f-5618-4881-ae4b-8745e9171bb5")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x05")
