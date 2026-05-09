@@ -5,7 +5,7 @@ Rudimentary all-in-one Power Distribution Board (PDB) and logic carrier designed
 ![Untitled design (4)](https://github.com/user-attachments/assets/ce2d2789-8002-419a-a3da-171ceb91e79b)
 
 ## 🚀 Key Specifications
-- **Dimensions:** 97.0 x 77.4 mm
+- **Dimensions:** 99.57 x 99.06 mm
 - **Power Input:** 6S LiPo (22.2V nominal, 25.2V max) via XT60.
 - **Power Tree:**
   - **12V @ 30A:** High-current rail for BLDC/DC Main Drive motors. External module attached through XT30 connectors
@@ -13,7 +13,7 @@ Rudimentary all-in-one Power Distribution Board (PDB) and logic carrier designed
   - **5.1V @ 5A:** On-board stabilized logic power for Pi 5 and peripherals. 3V3 Using Pico's built-in regulator.
 - **Processing:**
   - Dual-core architecture: Raspberry Pi 5 (Thinking) + Pi Pico 2 (Doing).
-  - High-speed UART communication bridge.
+  - UART communication bridge.
 - **Actuation & Sensing:**
   - 6x PWM Encoder inputs.
   - 6x PWM-Controlled DC motor driver headers.
@@ -38,4 +38,4 @@ The Pi 5 and Pico 2 communicate via UART.
 3. **USB Isolation:** Always use a USB isolator when debugging the Pi/Pico while the main battery is connected to prevent back-powering your PC.
 
 ## 📜 License
-This project is released under GNU General Public License v3.0. Designed by **Ilo Japar / HKU ROVER Team**.
+This project is released under CERN-OHL-W-2.0 license. Designed by **Ilo Japar / HKU Martians**.
