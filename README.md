@@ -1,6 +1,6 @@
 # HKU Martians Prototype Rover
 
-Rudimentary all-in-one Power Distribution Board (PDB) and logic carrier designed for small 6-wheel rovers with a 4-DoF robotic arm.
+Rudimentary 2-layer all-in-one Power Distribution Board (PDB) and logic carrier designed for small 6-wheel rovers with a 4-DoF robotic arm.
 
 <img width="1920" height="1080" alt="PCB preview" src="https://github.com/user-attachments/assets/eb576442-f120-4287-b1be-2488876520a4" />
 
